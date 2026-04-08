@@ -51,7 +51,7 @@ The re-ranking process follows these steps:
 * Vectorize each result snippet (or relevant parts of it).
 * Re-rank results based on similarity, frequency, and position, while adjusting for factors like length variation, freshness, and more.
 
-The [Xethub study](https://xethub.com/blog/you-dont-need-a-vector-database), as [explained by Simson Garfinkel](https://www.linkedin.com/pulse/vector-databases-rag-simson-garfinkel-hzule/), demonstrated that re-ranking "naive" keyword search engines outperforms re-indexing data into a vector database for tasks like question answering.
+The [Xethub study](https://web.archive.org/web/20240623111520/https://about.xethub.com/blog/you-dont-need-a-vector-database), demonstrated that re-ranking "naive" keyword search engines outperforms re-indexing data into a vector database for tasks like question answering.
 
 SWIRL AI Search also includes state-of-the-art cross-silo [Retrieval-Augmented Generation (RAG)](https://en.wikipedia.org/wiki/Retrieval-augmented_generation) to generate AI-powered insights such as summarization, question answering, and visualizations of relevant result sets.
 
